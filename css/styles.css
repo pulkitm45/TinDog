@@ -69,3 +69,69 @@ h3{
 .icon:hover{
     color: #ff4c68;
 }
+
+#testimonials{
+    font-family: "Montserrat-Bold";
+    background-color:#ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 10%;
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+}
+
+#press{
+    font-family: "Montserrat-Bold";
+    background-color:#ff4c68;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.press-img{
+    width:15%;
+    margin: 0px 30px;
+}
+
+#pricing{
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-block{
+    padding: 3% 2%;
+}
+
+#cta{
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c68;
+    font-family: "Montserrat-Black";
+    line-height: 1.5 rem;
+    padding: 5% 5%;
+    font-size: 3.5 rem;
+}
+
+#footer{
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-fluid{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0deg)
+    }
+}
